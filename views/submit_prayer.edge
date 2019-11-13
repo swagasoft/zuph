@@ -1,0 +1,240 @@
+@include('partials.navbar')        
+
+
+<div class="container page-header">
+    
+
+    <div class="row">
+        <div class="col-xs-12 rel">
+            <img alt="" class="img-responsive center-block" data-min-width-0="https://worldchangers.blob.core.windows.net/uploads/banners/201508312414_prayer-header-484pxmlr.jpg" data-min-width-484="https://worldchangers.blob.core.windows.net/uploads/banners/201508312414_prayer-header-772pxmlr.jpg" data-min-width-772="https://worldchangers.blob.core.windows.net/uploads/banners/201508312414_prayer-header-1024pxmlr.jpg" src="../worldchangers.blob.core.windows.net/uploads/banners/201508312413_prayer-header-1024px_mlr.jpg" />
+            <div class="row abs l-banner-overlay">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-0 col-md-5 col-md-offset-0">
+                    
+
+<div class="row">
+    <div class="col-xs-4 col-xs-offset-0 col-sm-4 col-sm-offset-1 m-logo-box">
+        <a href="index.html" title="Visit our home page">
+            <img src="../worldchangers.blob.core.windows.net/elements/logos/cdm_logo.png" alt="Creflo Dollar Ministries logo" class="img-responsive center-block">
+        </a>
+    </div><!-- col -->
+</div><!-- row -->
+                    <div class="col-xs-12 col-xs-offset-0 col-sm-11 col-sm-offset-1">
+                        
+                    </div>
+                    <!-- col -->
+                </div><!-- col -->
+            </div><!-- row abs -->
+        </div><!-- col rel -->
+    </div><!-- row -->
+
+    <a name="ListStart"></a>
+
+</div><!-- container page-header -->
+
+<div class="container contact_info-bg">
+    <div class="row">
+        
+
+<div id="_PrayerRequestSubmitContainer">
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 contact-header-box">
+            <h1>Submit your prayer request</h1>
+        </div><!-- col -->
+    </div><!-- row -->
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 PrayerRequest-boxer">
+<form action="https://www.creflodollarministries.org/Submit-Prayer-Request-Ajax" data-ajax="true" data-ajax-begin="OnPrayerRequestSubmitBegin" data-ajax-complete="OnPrayerRequestSubmitComplete" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#_PrayerRequestSubmitContainer" id="AjaxPrayerRequestForm" method="post">                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_FirstName">First Name *</label>
+                            <input MaxLength="50" data-val="true" data-val-length="First Name cannot exceed 150 characters." data-val-length-max="150" data-val-required="First Name is required" id="DataSource_FirstName" name="DataSource.FirstName" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.FirstName" data-valmsg-replace="true"></span>
+                        </p>
+                    </div>
+                </div><!-- row 1 : category fullname -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_LastName">Last Name *</label>
+                            <input MaxLength="50" data-val="true" data-val-length="Last Name cannot exceed 150 characters." data-val-length-max="150" data-val-required="Last Name is required" id="DataSource_LastName" name="DataSource.LastName" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.LastName" data-valmsg-replace="true"></span>
+                        </p>
+                    </div>
+                </div><!-- row 1 : category fullname -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_Email">Email *</label>
+                            <input MaxLength="250" data-val="true" data-val-email="Email is invalid" data-val-length="Email cannot exceed 250 characters." data-val-length-max="250" data-val-required="Email is required" id="DataSource_Email" name="DataSource.Email" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.Email" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_ContactNumber">Contact Number *</label>
+                            <input MaxLength="50" data-val="true" data-val-length="Contact Number cannot exceed 50 characters." data-val-length-max="50" id="DataSource_ContactNumber" name="DataSource.ContactNumber" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.ContactNumber" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : contact number -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1 select-parent">
+                        <p>
+                            <label for="DataSource_RegionId">Region *</label>
+                            <select class="selectpicker dropup form-control" data-container="body" data-live-search="true" data-size="auto" data-val="true" data-val-number="The field Region must be a number." id="DataSource_RegionId" name="DataSource.RegionId"><option value="">Please select one...</option>
+<option value="4">Africa</option>
+<option value="5">Americas</option>
+<option value="8">Asia</option>
+<option value="12">Brazil</option>
+<option value="6">Canada</option>
+<option value="7">Europe</option>
+<option value="13">Global</option>
+<option value="9">India</option>
+<option value="10">Russia</option>
+<option value="11">West Africa</option>
+</select>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row" id="CountryContainer">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1 select-parent">
+                        <p>
+                            <label for="DataSource_CountryId">Country *</label>
+                            <select id="DataSource_CountryId"
+                                    name="DataSource.CountryId"
+                                    class="selectpicker form-control dropdown-fa-ico"
+                                    data-size="auto"
+                                    data-container="body">
+                                <option value="">Loading countries....</option>
+                            </select>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label class="requiredForUSA" for="DataSource_Address1">Address Line 1</label>
+                            <input MaxLength="150" data-val="true" data-val-length="Address Line 1 cannot exceed 250 characters." data-val-length-max="250" id="DataSource_Address1" name="DataSource.Address1" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.Address1" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_Address2">Address Line 2</label>
+                            <input MaxLength="150" data-val="true" data-val-length="Address Line 2 cannot exceed 250 characters." data-val-length-max="250" id="DataSource_Address2" name="DataSource.Address2" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.Address2" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label class="requiredForUSA" for="DataSource_City">City</label>
+                            <input MaxLength="150" data-val="true" data-val-length="City cannot exceed 250 characters." data-val-length-max="250" id="DataSource_City" name="DataSource.City" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.City" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label class="requiredForUSA stateField" for="DataSource_State">State</label>
+                            <input MaxLength="150" data-val="true" data-val-length="State cannot exceed 250 characters." data-val-length-max="250" id="DataSource_State" name="DataSource.State" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.State" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label class="requiredForUSA postalCodeField" for="DataSource_PostalCode">Postal Code</label>
+                            <input MaxLength="150" data-val="true" data-val-length="Postal Code cannot exceed 250 characters." data-val-length-max="250" id="DataSource_PostalCode" name="DataSource.PostalCode" type="text" value="" />
+                            <span class="field-validation-valid" data-valmsg-for="DataSource.PostalCode" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 2 : email -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_TopicId">Topic *</label>
+                            <select class="selectpicker dropup form-control" data-container="body" data-live-search="true" data-size="auto" data-val="true" data-val-number="The field Topic must be a number." id="DataSource_TopicId" name="DataSource.TopicId"><option value="">Please select one...</option>
+<option value="3113">Bereavement</option>
+<option value="3114">Covenant</option>
+<option value="3115">Deliverance</option>
+<option value="3116">Depression</option>
+<option value="3118">Family</option>
+<option value="3119">Favor</option>
+<option value="3117">Fear</option>
+<option value="3120">Finance</option>
+<option value="3121">Healing</option>
+<option value="3122">Marriage</option>
+<option value="3123">Ministries</option>
+<option value="3132">Other/General</option>
+<option value="3124">Overwhelmed/Crisis</option>
+<option value="3125">Protection</option>
+<option value="3126">Salvation</option>
+<option value="3128">Sex</option>
+<option value="3131">Single</option>
+<option value="3129">Spiritual Growth</option>
+<option value="3130">Wholeness</option>
+</select>
+                        </p>
+
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <label for="DataSource_Request">Prayer Request *</label>
+                            <textarea MaxLength="200" cols="20" data-cd-charcounter="&#39;{&quot;max&quot;:200, &quot;class&quot;:&quot;test2&quot;, &quot;class_max&quot;: &quot;maxed-out&quot;}&#39;" data-val="true" data-val-required="Request is required" id="DataSource_Request" name="DataSource.Request" rows="2">
+</textarea>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <!-- Include in correspondence -->
+                <div class="row">
+                    <div class="col-xs-12 col-xs-offset-1 col-sm-4 col-md-12">
+                        <div class="checkbox">
+                            <label>
+                                <input aria-label="share" data-val="true" data-val-required="The IncludeInCorrespondence field is required." id="DataSource_IncludeInCorrespondence" name="DataSource.IncludeInCorrespondence" type="checkbox" value="true" /><input name="DataSource.IncludeInCorrespondence" type="hidden" value="false" />
+                                Please include me in correspondence
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <!-- Endof Include in correspondence -->
+                <div class="row">
+                    <div class="col-xs-12 col-sm-11 col-sm-offset-1">
+                        <p>
+                            <script type="text/javascript" src="../www.google.com/recaptcha/api.js" async>
+
+</script><div class="g-recaptcha" data-sitekey="6LckzwkTAAAAALT6YuS18oIbyTMo_oSHDE0G9Ox4" data-theme="light" data-type="image">
+
+</div>
+                            <span class="field-validation-valid" data-valmsg-for="ReCaptcha" data-valmsg-replace="true"></span>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="row">
+                    <div class="col-xs-12 col-xs-offset-0 col-sm-4 col-sm-offset-1">
+                        <p>
+                            <button type="submit" name="send" id="send" value="SUBMIT" class="button drkblue-border f-n no-pd bold ajaxSpinnerOnPrayerRequestSubmit ladda-button" data-style="expand-left">
+                                <span class="ladda-label">SUBMIT</span>
+                            </button>
+                        </p>
+                    </div><!-- col -->
+                </div><!-- row 4 : submit -->
+</form>        </div><!-- col -->
+    </div>
+</div>
+
+    </div>
+</div><!-- container -->
+
+        </div><!-- scroller -->
+      
+        @include('partials.footer')
